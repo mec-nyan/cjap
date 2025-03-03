@@ -1,6 +1,7 @@
 typedef char* hiragana;
 typedef char* katakana;
 
+
 const hiragana hg_a = "あ";
 const hiragana hg_i = "い";
 const hiragana hg_u = "う";
@@ -55,7 +56,7 @@ const hiragana hg_ro = "ろ";
 
 const hiragana hg_wa = "わ";
 const hiragana hg_wo = "を";
-const hiragana hg_n = "ん";
+const hiragana hg_n  = "ん";
 
 const hiragana hg_ga = "が";
 const hiragana hg_gi = "ぎ";
@@ -93,8 +94,8 @@ const hiragana hg_po = "ぽ";
 const hiragana hg_shi = hg_si;
 const hiragana hg_chi = hg_ti;
 const hiragana hg_tsu = hg_tu;
-const hiragana hg_fo = hg_hu;
-const hiragana hg_ji = hg_zi;
+const hiragana hg_fo  = hg_hu;
+const hiragana hg_ji  = hg_zi;
 
 // End Hiragana.
 
@@ -152,7 +153,7 @@ const katakana kk_ro = "ロ";
 
 const katakana kk_wa = "ワ";
 const katakana kk_wo = "ヲ";
-const katakana kk_n = "ン";
+const katakana kk_n  = "ン";
 
 const katakana kk_ga = "ガ";
 const katakana kk_gi = "ギ";
@@ -190,7 +191,7 @@ const katakana kk_po = "ポ";
 const katakana kk_shi = kk_si;
 const katakana kk_chi = kk_ti;
 const katakana kk_tsu = kk_tu;
-const katakana kk_fo = kk_hu;
-const katakana kk_ji = kk_zi;
+const katakana kk_fo  = kk_hu;
+const katakana kk_ji  = kk_zi;
 
 // End Katakana.

@@ -1,8 +1,9 @@
 IN = main.c
+DEPS = *.c
 FLAGS = -std=c17
 OUT = main.o
 
-$(OUT): $(IN)
+$(OUT): $(IN) $(DEPS)
 	@clang -o $(OUT) $(FLAGS) $(IN)
 
 run: $(OUT)
